@@ -59,7 +59,7 @@ app.*.map.json
 /*.py
 /*.txt
 /*.ps1
-/*.bak
+*.bak
 /*.tmp
 
 # 数据库备份文件
@@ -71,6 +71,9 @@ windows/flutter/ephemeral/
 windows/flutter/generated_plugin_registrant.cc
 windows/flutter/generated_plugin_registrant.h
 windows/flutter/generated_plugins.cmake
+
+# 桌宠开发期生成、运行时未使用的元数据
+/parts_meta.json
 
 # 开发过程中的临时工作目录
 /Efish_Companion_v1/
