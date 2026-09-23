@@ -1,0 +1,78 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Widget Preview related
+.widget_preview/
+
+# ============================================================
+# Efish 项目自定义规则
+# ============================================================
+
+# 根目录开发/调试过程中产生的临时文件（仅忽略工程根，不影响子目录）
+/*.png
+/*.jpg
+/*.jpeg
+/*.gif
+/*.py
+/*.txt
+/*.ps1
+/*.bak
+/*.tmp
+
+# 数据库备份文件
+*.bak.db
+assets/words.seed.bak.db
+
+# Windows 构建时自动生成的文件（flutter pub get / build 会重新生成）
+windows/flutter/ephemeral/
+windows/flutter/generated_plugin_registrant.cc
+windows/flutter/generated_plugin_registrant.h
+windows/flutter/generated_plugins.cmake
+
+# 开发过程中的临时工作目录
+/Efish_Companion_v1/
+/Efish_Companion_v2/
+/issue_shots/
